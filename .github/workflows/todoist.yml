@@ -8,6 +8,8 @@ on:
 
 jobs:
   update-readme:
+    permissions:
+      contents: write
     name: Update todoist stats
     runs-on: ubuntu-latest
     steps:
